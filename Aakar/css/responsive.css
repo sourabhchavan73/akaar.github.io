@@ -1,0 +1,152 @@
+@media (max-width: 320px) {
+
+}
+
+@media (max-width: 768px) {
+	#welcome h1 {
+	    color: #fff;
+	    font-weight: normal;
+	    font-size: 34px;
+	}
+	#welcome p{
+		color: #C5983f;
+	    font-size: 12px;
+	}
+	.welcome-text {
+	    background-image: url(../images/banner.png);
+	    height: 210px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    object-fit: cover;
+	}
+	.title {
+        margin-bottom: 0px;
+            
+        font-size: 35px;
+}
+.dot {
+    min-width: 6px;
+    height: 6px;
+    background-color: #B09123;
+    border-radius: 50%;
+    display: inline-block;
+}
+.padding-left-right-30{
+	padding: 0px 30px;
+}
+.padding-bottom-0{
+	padding-bottom: 0px !important;
+}
+.services-back-img {
+    background-image: url('../images/Asset 22.png');
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    opacity: .6;
+    background-size: contain;
+    position: relative;
+}
+.service-image {
+	position: absolute;
+    height: 157px;
+    width: 155px;
+    top: 97px;
+    left: 54px;
+    object-fit: cover;
+    z-index: -1;
+}
+.service-image-left {
+	position: absolute;
+    height: 157px;
+    width: 155px;
+    top: 97px;
+    left: 54px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.services-back-img-left {
+    background-image: url('../images/Asset 22.png');
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    opacity: .6;
+    background-size: contain;
+    position: relative;
+}
+.bottom-img {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.client-address{
+    text-align: left!important;
+}   
+.process-content {
+    text-align: left!important;
+} 
+.bot-img {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    left: -29px;
+    bottom: -80px;
+}
+}
+
+
+
+
+@media (max-width: 543px) {}
+
+@media (max-width: 1160px) {
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+@media (max-width: 1330px) {}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+
+
+.service-image {
+    position: absolute;
+    height: 262px;
+    width: 264px;
+    top: 122px;
+    right: 96px;
+    object-fit: cover;
+    z-index: -1;
+}
+}
+
+
+/*iPhone 6 Plus and iPhone 6S Plus*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3){
+    .service-image {
+    position: absolute;
+    height: 182px;
+    width: 184px;
+    top: 84px;
+    left: 67px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.service-image-left {
+    position: absolute;
+    height: 183px;
+    width: 186px;
+    top: 85px;
+    left: 65px;
+    object-fit: cover;
+    z-index: -1;
+}
+}
